@@ -1,3 +1,4 @@
+/* GENERAL STYLES */
 :root {
   --primary-color: #fff;
   --secondary-color: #91c73e;
@@ -19,9 +20,58 @@ body {
 
 main {
   width: 1000px;
-  height: 650px;
   background-color: white;
   margin: 5px auto;
   display: grid;
-  grid-template-rows: 200px 400px 50px;
+  grid-template-rows: 175px 50px 600px 25px;
+}
+
+/* hEADER */
+
+#website-logo {
+  margin: 20px auto;
+}
+
+header {
+  grid-row: 1/2;
+}
+
+nav {
+  background-color: var(--secondary-color);
+  height: 50px;
+}
+
+ul {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  background-color: var(--tertiary-color);
+  width: 100px;
+  height: 100%;
+}
+
+.anker {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+/* MAIN CONTENT */
+
+section {
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* FOOTER */
+footer {
+  grid-row: 4/5;
+  background-color: var(--secondary-color);
 }
