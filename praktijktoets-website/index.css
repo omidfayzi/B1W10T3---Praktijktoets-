@@ -51,27 +51,31 @@ nav {
 
 ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   height: 100%;
 }
 
 li {
   list-style: none;
   display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--tertiary-color);
   width: 100px;
   height: 100%;
-  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 li:hover {
   background-color: var(--primary-color);
 }
 
-a {
+ul > li > a {
   text-decoration: none;
   color: var(--secondary-color);
-  padding-top: 50px;
+  text-align: center;
   font-size: 14px;
 }
 
