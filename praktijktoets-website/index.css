@@ -38,8 +38,7 @@ header {
 .website-logo {
   grid-column: 2/3;
   grid-row: 1/2;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0 20px 0;
 }
 
 nav {
@@ -64,8 +63,7 @@ li {
   background-color: var(--tertiary-color);
   width: 100px;
   height: 100%;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 0 40px 0 40px;
 }
 
 li:hover {
@@ -94,15 +92,14 @@ article {
   justify-content: space-evenly;
 }
 
-.article-h1 {
+.article-heading {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
   font-size: 24px;
 }
 
 .article-p {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
 }
 
 #page-1-article-1 {
@@ -136,7 +133,7 @@ article {
   justify-content: center;
 }
 
-.article-h1 {
+.article-2-p {
   margin: 20px 0px;
 }
 
@@ -155,22 +152,20 @@ article {
   grid-row: 2/4;
 }
 
-/* MAIN CONTENT PAGE 2*/
+/* MAIN CONTENT PAGE 3*/
 
 #page-3 {
   grid-template-rows: 200px 50px 130px 25px;
 }
 
-.page-3-h1 {
+.page-3-h2 {
   background-color: var(--secondary-color);
   color: black;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 0 5px 0;
 }
 
 .page-3-h {
-  padding-left: 20px;
-  padding-bottom: 30px;
+  padding: 10px 0px 0px 30px;
 }
 
 .page-3-articles {
